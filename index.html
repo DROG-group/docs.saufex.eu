@@ -75,6 +75,21 @@
       flex-shrink: 0;
     }
   </style>
+  <!-- Matomo -->
+  <script>
+    var _paq = window._paq = window._paq || [];
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+      var u="https://analytics.saufex.eu/";
+      _paq.push(['setTrackerUrl', u+'matomo.php']);
+      _paq.push(['setSiteId', '1']);
+      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+      g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+    })();
+  </script>
+  <noscript><p><img referrerpolicy="no-referrer-when-downgrade" src="https://analytics.saufex.eu/matomo.php?idsite=1&amp;rec=1" style="border:0;" alt="" /></p></noscript>
+  <!-- End Matomo -->
 </head>
 <body>
   <h1>Saufex Documentation</h1>
